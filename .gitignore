@@ -4,3 +4,6 @@
 /terraform2/terraform.tfstate.backup
 /terraform2/.terraform/
 /terraform1/terraform.tfstate
+/terraform1/terraform.tfstate.backup
+/terraform3/.terraform/
+/terraform3/terraform.tfstate.backup
