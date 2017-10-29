@@ -1,21 +1,21 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-    dependencies {
-        classpath "com.roku:henka:0.9.7"
-    }
-}
-
-task terraform(type: com.roku.henka.TerraformTask) {
-    description "Runs a terraform script"
-    tfDir = "$projectDir/terraform1"
-    tfVarFile = "$projectDir/terraform1/no.vars"
-
-    tfAction    = project.hasProperty("tfAction") ? project.property('tfAction') : "plan"
-
-    tfConfS3Bucket  = "mprotsenko-demo-terraform-state"
-    tfConfS3Key     = "demo2.tfstate"
-    tfConfS3Region  = "us-west-1"
-    tfConfS3KmsKey  = "alias/tf-state-key"
-}
+//buildscript {
+//    repositories {
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath "com.roku:henka:0.9.7"
+//    }
+//}
+//
+//task terraform(type: com.roku.henka.TerraformTask) {
+//    description "Runs a terraform script"
+//    tfDir = "$projectDir/terraform1"
+//    tfVarFile = "$projectDir/terraform1/no.vars"
+//
+//    tfAction    = project.hasProperty("tfAction") ? project.property('tfAction') : "plan"
+//
+//    tfConfS3Bucket  = "mprotsenko-demo-terraform-state"
+//    tfConfS3Key     = "demo2.tfstate"
+//    tfConfS3Region  = "us-west-1"
+//    tfConfS3KmsKey  = "alias/tf-state-key"
+//}
