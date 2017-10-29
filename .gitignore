@@ -3,3 +3,4 @@
 /tf-demo.iml
 /terraform2/terraform.tfstate.backup
 /terraform2/.terraform/
+/terraform1/terraform.tfstate
