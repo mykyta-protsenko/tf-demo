@@ -15,7 +15,7 @@
 //    tfAction    = project.hasProperty("tfAction") ? project.property('tfAction') : "plan"
 //
 //    tfConfS3Bucket  = "mprotsenko-demo-terraform-state"
-//    tfConfS3Key     = "demo2.tfstate"
+//    tfConfS3Key     = "demo1.tfstate"
 //    tfConfS3Region  = "us-west-1"
 //    tfConfS3KmsKey  = "alias/tf-state-key"
 //}
